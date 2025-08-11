@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Breakfast Recipe</title>
+</head>
+<body>
+    <header>
+        <!-- The header, introducing and describing the recipe -->
+
+        <h1>My Favorite Breakfast Recipe</h1>
+        <picture>
+            <!-- Using the <picture> element with various file types for responsive images and optimization -->
+            <source srcset="./Assets/breadRoll-header-desktop.jpg" type="image/jpeg" media="(min-width: 1024px)">
+            <source srcset="./Assets/breadRoll-header-desktop.png" type="image/png" media="(min-width: 1024px)">
+            <source srcset="./Assets/breadRoll-header-desktop.webp" type="image/webp" media="(min-width: 1024px)">
+
+            <source srcset="./Assets/breadRoll-header-tablet.jpg" type="image/jpeg" media="(min-width: 767px)">
+            <source srcset="./Assets/breadRoll-header-tablet.png" type="image/png" media="(min-width: 767px)">
+            <source srcset="./Assets/breadRoll-header-tablet.webp" type="image/webp" media="(min-width: 767px)">
+
+            <source srcset="./Assets/breadRoll-header-mobile.jpg" type="image/jpeg" media="(max-width: 767px)">
+            <source srcset="./Assets/breadRoll-header-mobile.png" type="image/png" media="(max-width: 767px)">
+            <source srcset="./Assets/breadRoll-header-mobile.webp" type="image/webp" media="(max-width: 767px)">
+
+            <img src="./Assets/breadRoll-header-default.jpg" alt="A delicious bread roll">
+        </picture>
+        <p>This is a simple, <b>nutrient-dense</b> and delicious breakfast recipe that you can make in no time! It is a popular appetizer, snack, or can even be served as a breakfast or brunch item.</p>
+        <p>The filling typically includes shredded chicken, and can be enhanced with various vegetables, seasonings, sauces, and cheeses.</p>
+    </header>
+
+    <main>
+        <!-- The main content of the recipe, including ingredients, instructions, and a video tutorial -->
+
+        <section>
+            <h2>Recipe Information</h2>
+            <ul>
+                <li><strong>Prep Time:</strong> 15 minutes</li>
+                <li><strong>Cook Time:</strong> 10 minutes</li>
+                <li><strong>Total Time:</strong> 25 minutes</li>
+                <li><strong>Servings:</strong> 10</li>
+                <li><strong>Difficulty:</strong> Beginner</li>
+            </ul>
+
+            <h2>Ingredients</h2>
+            <ul>
+                <li>10 bread slices</li>
+                <li>1 cup cooked shredded chicken</li>
+                <li>1/2 cup shredded cabbage</li>
+                <li>1/2 cup shredded carrots</li>
+                <li>2 tablespoons mayonnaise</li>
+                <li>Room temperature butter or any bread spread of choice</li>
+                <li>Salt and pepper to taste</li>
+            </ul>
+
+            <h2>Instructions</h2>
+            <ol>
+                <li>In a mixing bowl, add the shredded chicken, cabbage, carrots and lettuce. Toss to combine then add mayonnaise and toss again, ensuring that shredded pieces are thoroughly coated with the mayonnaise.</li> <br>
+                <li>Next, place a bread slice on a flat surface and roll out with a rolling pin until it is very flat and a little stiff. Then, cut out the four browned sides of the bread with a sharp knife. Repeat the process for all the other slices.</li> <br>
+                <li>Afterwards, generously spread butter or bread spread on each slice of bread and place a heaped teaspoonful of the shredded chicken and vegetable mixture on one end of the bread slice. Then gently fold the bread from the side with the chicken and vegetable mixture and roll it up to the other end.</li> <br>
+                <li>Next, heat up frying pan on very low heat and lightly coat with butter or vegetable oil, then place bread rolls 2-3 at a time into the pan and allow to toast up on one side for about 1-2 minutes till golden brown, then flip to the other side to toast up as well for a further 1 minute.</li> <br>
+                <li>Next transfer the bread rolls to a plate lined with a paper towel.</li> <br>
+                <li>You can serve bread rolls on a bed of lettuce or cabbage with honey drizzles and some freshly squeezed orange juice or a cup of hot tea or coffee or even a bottle of cold fizzy drink. Whatever you decide to serve it with, <em><mark>just make sure you enjoy every bite!</mark></em></li>
+            </ol>
+            <p>And voila! Breakfast is served.</p>
+            <picture>
+                <source srcset="./Assets/Bread-roll.jpg" type="image/jpeg">
+                <source srcset="./Assets/Bread-roll.png" type="image/png">
+                <source srcset="./Assets/Bread-roll.webp" type="image/webp">
+
+                <img src="./Assets/Bread-roll.jpg" alt="A plate of delicious bread rolls">
+            </picture>
+        </section>
+
+        <section>
+            <p>In this video, you'll find detailed instructions and tips to perfect your bread rolls:</p>
+            <video width="520" height="320" title="How to Make Bread Rolls with Shredded Chicken and Vegetables" controls>
+                <source src="./Assets/How-to-make-breadrolls.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>If you liked this recipe and want to learn more delicious recipes, be sure to check out one of <a href="https://www.youtube.com/@ZeeliciousFoods"><b>my favorite cooking channels!</b></a></p>
+        </section>
+    </main>
+    
+</body>
+</html>
